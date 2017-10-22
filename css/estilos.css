@@ -1,0 +1,185 @@
+/*******LOGO*******/
+.logo img {
+	max-width:130px;
+	max-height:130px;
+	width: auto;
+	height: auto;
+}
+
+.logo img {
+	position: relative;
+	top: 150%;
+	transform: translateY(20%);
+}
+
+.logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/********CHMADA*********/
+
+.chamada h1 {
+	text-align: center;
+	padding-top: 50px;
+	font-family: "Arial Black", Arial Bold, Gadget;
+	font-size: 40px;
+	color: #000;
+}
+
+.chamada p {
+	text-align: center;
+	padding-top: 10px;
+	font-family: "Arial Black", Arial Bold, Gadget;
+	font-size: 50px;
+	color: #008080;
+}
+
+/*********MENU***********/
+.menu {
+	clear:none;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.menu li{
+	display:inline;
+	position: relative;
+}
+
+.menu li:before {
+	content:"|";
+	font-size: 30px;
+	position: absolute;
+	left: 3px;
+	top:-15px;
+	color: #000;
+}
+
+.menu li:first-child:before{
+	content: normal;
+}
+
+.menu a {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 15px;
+	color: #000;
+	font-size: 30px;
+	font-family: "Arial Black", Arial Bold, Gadget;
+}
+
+.menu a:hover {
+	background: #008080;
+	color: #fff;
+
+	-webkit-transition: all 0.3s ease 0s;
+	   -moz-transition: all 0.3s ease 0s;
+	    -ms-transition: all 0.3s ease 0s;
+	     -o-transition: all 0.3s ease 0s;
+	        transition: all 0.3s ease 0s;
+
+}
+
+/**********HEADER CONTENT************/
+Header {
+	background-size:cover;
+	background-position:center;
+	background-image:url(../img/Flavia.jpg);
+	color:#fff
+}
+
+@media (min-width:992px){
+header{
+min-height:100%
+	}
+}
+
+	header .header-content{
+	position:absolute;
+	top:20%;
+	left: 20%;
+}
+
+/*********SCROLL********/
+#scroll {
+	width: 100%;
+	height: 100%;
+}
+
+/**********BODY**********/
+
+.informacao {
+	position: absolute;
+	padding-top: 30px;
+	text-align: left;
+	margin-left: 35px;
+	font-family: "Arial Black", Arial Bold, Gadget;
+	font-size: 25px;
+}
+
+.informacao h1 {
+	padding-top: 30px;
+	color: #008080;
+}
+
+.informacao p.um {
+	padding-top: 20px;
+	color: #000;
+}
+
+.informacao p.dois {
+	padding-top: 10px;
+	color: #000;
+}
+
+/**********RODAPÉ**********/
+
+#rodape {
+	color: #000;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 150px;
+	text-align: left;
+	clear: both;
+}
+
+#rodape img {
+	vertical-align: middle;
+	width: 80px;
+}
+
+.redes li a {
+	height: 30px;
+	width: 30px;
+	display: block;
+}
+
+footer {
+	padding: 20px 0;
+}
+
+.redes {
+	position: absolute;
+	bottom: 12px;
+	right: 150px;
+}
+
+#rodape {
+	position: relative;
+	bottom: 12px;
+}
+
+.redes li {
+	float: left;
+	margin-left: 20px;
+	margin-bottom: -25px;
+}
+
+.redes a {
+	margin-left: 35px;
+}
+
+
+
